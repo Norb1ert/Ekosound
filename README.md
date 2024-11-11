@@ -1,8 +1,13 @@
-# React + Vite
+# Ekosound Akustyka Webpage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the first version of a webpage created for **Ekosound Akustyka**, a company specializing in acoustic solutions. The website is built using **React** and **Vite**, following best practices to ensure optimal performance and scalability.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – for building the user interface.
+- **Vite** – for fast development and build setup.
+
+## Features
+
+- Modern and responsive design.
+- Built with best practices for performance.
