@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <section
       id="home"
-      className="bg- text-orange-500  py-20  h-screen flex w-full items-start justify-center flex-col  bg-[url('bg-waves.jpg')] bg-cover"
+      className="bg- text-orange-500  py-20  h-screen flex w-full items-start justify-center flex-col  bg-[url('/bg-waves.jpg')] bg-cover"
     >
       <h2 className="text-5xl sm:text-8xl font-bold mb-4 px-7 uppercase  break-words text-center sm:text-left">
         Ekosound Akustyka
