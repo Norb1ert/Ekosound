@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import HeroSection from "./HeroSection";
 import Offer from "./Offer";
 import Contact from "./Contact";
+import Parthners from "./components/Parthners";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
 
       {/* O nas */}
       <About />
+
+      {/* Showcase */}
+      <Parthners/>
 
       {/* Usługi */}
       <Offer />

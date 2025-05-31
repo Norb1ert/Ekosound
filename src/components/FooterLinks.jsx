@@ -4,30 +4,24 @@ export default function FooterLinks() {
       href: "#home",
       id: 1,
       className:
-        "hover:text-slate-900 hover:underline transition-all duration-300 pb-2 pt-1",
+        "hover:text-slate-900 transition-all duration-300 pb-2 pt-1 cursor-pointer",
       label: "Home",
     },
     {
       href: "#about",
       id: 2,
       className:
-        "hover:text-slate-900 hover:underline transition-all duration-300 pb-2 pt-1",
+        "hover:text-slate-900  transition-all duration-300 pb-2 pt-1 cursor-pointer",
       label: "O nas",
     },
     {
       href: "#offer",
       id: 3,
       className:
-        "hover:text-slate-900 hover:underline transition-all duration-300 pb-2 pt-1",
+        "hover:text-slate-900  transition-all duration-300 pb-2 pt-1 cursor-pointer",
       label: "Oferta",
     },
-    {
-      href: "#policy",
-      id: 4,
-      className:
-        "hover:text-slate-900 hover:underline transition-all duration-300",
-      label: "Polityka prywatności",
-    },
+    
   ];
   return (
     <ul className="text-center ">
