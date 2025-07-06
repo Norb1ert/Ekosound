@@ -5,7 +5,7 @@ import CopyButton from './CopyButton'
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-gray-400  flex flex-col sm:flex-row px-6 py-6 gap-6 justify-center items-center lg:text-xl">
+    <footer className="bg-black text-gray-400  flex flex-col sm:flex-row px-6 py-6 gap-6 justify-center items-center lg:text-xl" id="contact">
       <div className="container mx-auto flex flex-col gap-4 justify-center items-center">
         <h3 className="text-lg font-bold">Kontakt</h3>
         <p>ekosoundakustyka@gmail.com</p>

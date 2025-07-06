@@ -21,8 +21,8 @@ export default function MobileMenu() {
             <span
               className={
                 open
-                  ? "text-slate-800 text-6xl absolute z-20 right-0 py-3 px-3"
-                  : "text-slate-800 text-6xl absolute z-20 right-0 py-3 px-3"
+                  ? "text-white text-6xl fixed z-40 right-0 py-3 px-3"
+                  : "text-white text-6xl fixed z-40 right-0 py-3 px-3"
               }
             >
               {open ? <IoClose /> : <IoMenu />}
@@ -30,13 +30,13 @@ export default function MobileMenu() {
           </DisclosureButton>
 
           <DisclosurePanel transition className={``}>
-            <div className="flex flex-col bg-slate-300/70 backdrop-blur-sm absolute w-full h-screen justify-center items-center text-4xl text-slate-700 font-bold z-10">
+            <div className="flex flex-col bg-slate-300/70 backdrop-blur-sm fixed inset-0 w-full h-screen justify-center items-center text-4xl text-white font-bold z-20">
               <ul>
                 {links.map((link) => (
                   <li key={link.id}>
                     <a
                       href={link.href}
-                      className="block p-4 hover:text-slate-800"
+                      className="block p-4 hover:text-orange-500"
                     >
                       {link.label}
                     </a>
