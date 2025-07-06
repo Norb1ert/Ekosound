@@ -5,7 +5,7 @@ import CopyButton from './CopyButton'
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-200 text-slate-700  flex flex-col sm:flex-row px-6 py-6 gap-6 justify-center items-center lg:text-xl">
+    <footer className="bg-black text-gray-400  flex flex-col sm:flex-row px-6 py-6 gap-6 justify-center items-center lg:text-xl">
       <div className="container mx-auto flex flex-col gap-4 justify-center items-center">
         <h3 className="text-lg font-bold">Kontakt</h3>
         <p>ekosoundakustyka@gmail.com</p>
@@ -34,7 +34,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="text-center ">
-          <p className=" text-slate-400">Created by Norbert</p>
+          <p className=" text-gray-400">Created by Norbert</p>
         </div>
       </div>
     </footer>

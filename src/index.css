@@ -12,6 +12,13 @@ html {
   font-weight: 400;
   font-display: swap;
   src: url("/fonts/Poppins.woff2") format("woff2");
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(data:font/woff2;charset=utf-8;base64,d09GMgABAAAA...) format('woff2');
+  
 }
 
 body {

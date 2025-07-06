@@ -11,16 +11,16 @@ function Header() {
   return (
     <>
       <MobileMenu />
-      <header className=" text-orange-500 p-4 border-solid border-2 h-28 hidden sm:block">
-        <div className="container mx-auto flex justify-between items-center min-h-full">
+      <header className=" h-28 hidden sm:block bg-black">
+        <div className="container mx-auto flex justify-between items-center min-h-full gap-8 font-montserrat font-thin">
           {/* <h1 className="text-2xl font-bold">Logo</h1> */}
           <img src="./logo-main.png" className="w-full max-w-[70px]"/>
-          <ul className="flex gap-3 px-3 md:gap-5 lg:gap-8">
+          <ul className="flex gap-3 px-3 md:gap-5 lg:gap-8 text-gray-400">
             {links.map((link) => (
               <li key={link.id} className="cursor-pointer ">
                 <a
                   href={link.href}
-                  className="text-2xl scroll-smooth font-semibold hover:text-orange-700 transition-all duration-300"
+                  className="text-2xl scroll-smooth hover:text-orange-500 transition-all duration-300"
                 >
                   {link.label}
                 </a>

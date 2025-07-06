@@ -1,16 +1,18 @@
-import Header from "./components/Header";
+
 import About from "./About";
 import Footer from "./components/Footer";
 import HeroSection from "./HeroSection";
-import Offer from "./Offer";
-import Contact from "./Contact";
+import OfferSlider from "./Offer";
 import Parthners from "./components/Parthners";
+import Gallery from './Gallery'
+import Header from './components/Header'
 
 function App() {
   return (
     <div>
-      {/* Nagłówek */}
-      <Header />
+      
+        <Header />
+        
 
       {/* Sekcja główna */}
       <HeroSection />
@@ -22,10 +24,9 @@ function App() {
       <Parthners/>
 
       {/* Usługi */}
-      <Offer />
+      <OfferSlider />
 
-      {/* Kontakt */}
-      <Contact />
+      <Gallery />
 
       {/* Stopka */}
       <Footer />
